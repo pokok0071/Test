@@ -13,6 +13,7 @@
         </author>
         <content src="index.html" />
         <access origin="*" />
+		
 			<gap:splash src="potatoes.png" gap:platform="ios" width="320" height="480" />
 			<icon src="logo.png" />
     </widget>
