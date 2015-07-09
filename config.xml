@@ -8,9 +8,6 @@
         </author>
         <content src="index.html" />
         <access origin="*" />
-		
-		 <platform name="android">
 			<splash src="images/potatoes.png"/>
 			<icon src="images/logo.png" />
-		 </platform>
     </widget>
