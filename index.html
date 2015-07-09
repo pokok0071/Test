@@ -5,6 +5,10 @@
 function pageLoaded()
 {
 	document.addEventListener("deviceready",siapsedia);
+	document.addEventLiistener("resume",function()
+		{
+			document.getElementById("msg").innerHTML = "App resumed";
+		},false);
 }
  function siapsedia()
  {
@@ -24,5 +28,12 @@ function pageLoaded()
 
 This is first application using phone gap
 <p id="msg"></p>
+
+<div>
+	Navigation:
+	<ul>
+		<li><a href="accel.html">Accelerometer</a></li>
+	</ul>
+</div>
 </body>
 </html>

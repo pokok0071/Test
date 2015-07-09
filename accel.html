@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script>
+	function doAccel(accel)
+	{
+			document.getElementById("display").innerHTML = "x: "+accel.X+" y:"+accel.Y+" Z:"+accel.Z+"<br/>";
+	}
+	function pageReady()
+	{
+		var accelID = navigator.accelerometer.watchAcceleration(doAccel,errorAccel,{frequency:500}); // ("function") //getCurrentAcceleration = skali je
+		
+	}
+	</script>
+	
+</head>
+<body onload="pageReady()">
+<h1 id="display"></h1>
+</body>
+</html>
