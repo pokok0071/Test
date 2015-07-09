@@ -10,7 +10,7 @@
         <access origin="*" />
 		
 		 <platform name="android">
-			<splash src="images/potatoes.png" density="land-hdpi"/>
+			<splash src="images/potatoes.png"/>
 			<icon src="images/logo.png" />
 		 </platform>
     </widget>
