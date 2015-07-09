@@ -1,4 +1,9 @@
- <widget id="com.example.hello" version="0.0.1">
+ <widget xmlns       = "http://www.w3.org/ns/widgets"
+    xmlns:gap       = "http://phonegap.com/ns/1.0"
+    xmlns:android   = "http://schemas.android.com/apk/res/android"
+    id              = "com.lumberg.greeeaaat"
+    version         = "1.0.0"><widget id="com.example.hello" version="0.0.1">
+	
         <name>The new test App</name>
         <description>
             Learning phone gap can be fun
@@ -8,6 +13,6 @@
         </author>
         <content src="index.html" />
         <access origin="*" />
-			<splash src="potatoes.png"/>
+			<gap:splash src="potatoes.png" gap:platform="ios" width="320" height="480" />
 			<icon src="logo.png" />
     </widget>
