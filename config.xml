@@ -8,6 +8,6 @@
         </author>
         <content src="index.html" />
         <access origin="*" />
-			<splash src="images/potatoes.png"/>
-			<icon src="images/logo.png" />
+			<splash src="potatoes.png"/>
+			<icon src="logo.png" />
     </widget>
